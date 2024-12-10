@@ -11,8 +11,8 @@
 
 :root{
     --color-primary-1: #DBC6FF;
-    --color-primary-2: #B09DFF;
-    --color-primary-3: #8677DD;
+    --color-primary-2: #b09dff;
+    --color-primary-3: #8677dd;
     --color-primary-4: #5D52B3;
     --color-primary-5: #33308b;
     --color-primary-6: #29275B;
@@ -25,4 +25,7 @@ a{
 }
 body{
     background-color: var(--color-neutra-0);
+}
+section{
+    padding: 28px 8%;
 }

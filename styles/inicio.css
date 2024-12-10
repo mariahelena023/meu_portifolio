@@ -1,0 +1,21 @@
+#inicio{
+    display: flex;
+    min-height: calc(100vh - 91px);
+    position: relative;
+    justify-content: space-between;
+}
+.informacoes-inicio{
+    margin: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.title-portifolio{
+    font-size: 3rem;
+    color: var(--color-primary-2);
+}
+.title-portifolio-span{
+    font-size: 1.9rem;
+    color: var(--color-primary-2);
+}

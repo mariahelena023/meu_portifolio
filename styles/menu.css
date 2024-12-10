@@ -10,11 +10,8 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-.title-portifolio{
-    font-size: 1.9rem;
-    color: var(--color-primary-2);
+    justify-content: center;
+    gap: 10px;
 }
 .nav-list{
     display: flex;
@@ -22,10 +19,13 @@
     gap: 48px;
 }
 .nav-link{
+    font-size: 1.0rem;
     text-decoration: none;
-    color: var(--color-primary-3);
+    color: var(--color-primary-1);
     font-weight: 600;
+    transition: text-shadow 0.3s ease;
 }
 .nav-link:hover{
-    color: var(--color-primary-2);
+    color: var(--color-primary-4);
+    text-shadow: 0px 3px 10px rgba(177, 157, 255, 0.967);
 }
